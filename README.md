@@ -3,7 +3,7 @@ Team Name: Digital Dreamers
 Team Members:
 Praveenn A Xavier  - Place : Bangalore
 Praveen T - Place : Chennai
-Aravind Sreedharan - Place : Chennai
+Arvind Sridharan - Place : Chennai
 Kiran Venkatarao- Place : Bangalore
 
 
