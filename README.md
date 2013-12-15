@@ -31,3 +31,18 @@ Supervisors can assign and monitor progress of a particular task.
 Employee – The worker on the street who addresses the problem
 Can view all assigned tasks
 Can mark it resolved on completion of the task
+
+
+Server side apis
+
+- data 
+https://appengine.google.com/datastore/explorer?&app_id=s~custom-rigging-429&version_id=1.372343444212450309
+
+- get a user's complaints
+http://1.custom-rigging-429.appspot.com/loadUserComplaints.action?userId=13122
+
+- get a wards complants for the employee
+http://1.custom-rigging-429.appspot.com/loadWardComplaints.action?wardNo=1-A
+
+- load a particular complaint's details.
+http://1.custom-rigging-429.appspot.com/loadComplaint.action?id=5629499534213120
