@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+ 
+<struts>
+ 
+  <package name="default" namespace="/" extends="json-default">
+	<action name="addComplaint" class="com.complaintbox.action.AddComplaintAction" method="addComplaint">
+		<result name="success" type="json" ><param name="root">complaintId</param></result>
+	</action>	
+
+	<action name="loadComplaint" class="com.complaintbox.action.ComplaintFetchAction" method="loadComplaintDetails">
+		<result name="success" type="json"><param name="root">complaint</param></result>
+	</action>
+	
+	<action name="loadUserComplaints" class="com.complaintbox.action.ComplaintFetchAction" method="loadUserComplaints">
+		<result name="success" type="json"><param name="root">complaintList</param></result>
+	</action>
+	
+	<action name="loadWardComplaints" class="com.complaintbox.action.ComplaintFetchAction" method="loadWardComplaints">
+		<result name="success" type="json"><param name="root">complaintList</param></result>
+	</action>
+	
+   </package>
+</struts>
